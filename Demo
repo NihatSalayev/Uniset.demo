@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uniset | Təhlükəsizlik Sistemləri</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-blue-600">UNISET</h1>
+            <div class="space-x-4">
+                <a href="#services" class="hover:text-blue-600">Xidmətlər</a>
+                <a href="#contact" class="bg-blue-600 text-white px-4 py-2 rounded-lg">Əlaqə</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-blue-900 text-white py-20 text-center">
+        <h2 class="text-4xl md:text-5xl font-bold mb-4">Məkanınızın Təhlükəsizliyi Bizə Əmanət</h2>
+        <p class="text-xl mb-8">Uniset – Peşəkar kamera və müşahidə sistemlərinin quraşdırılması.</p>
+        <a href="#contact" class="bg-yellow-500 text-gray-900 px-8 py-3 rounded-full font-bold text-lg hover:bg-yellow-400">İndi Təklif Al</a>
+    </header>
+
+    <!-- Services -->
+    <section id="services" class="container mx-auto py-16 px-4">
+        <h3 class="text-3xl font-bold text-center mb-12">Xidmətlərimiz</h3>
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <h4 class="text-xl font-bold mb-2">HD Kamera Sistemləri</h4>
+                <p>Gecə görmə özəllikli, yüksək keyfiyyətli kamera sistemləri.</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <h4 class="text-xl font-bold mb-2">Siqnalizasiya</h4>
+                <p>Ev və obyektlər üçün müasir təhlükəsizlik siqnalizasiyaları.</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <h4 class="text-xl font-bold mb-2">Texniki Dəstək</h4>
+                <p>Quraşdırma sonrası 7/24 texniki servis xidməti.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="bg-blue-50 py-16 text-center px-4">
+        <h3 class="text-2xl font-bold mb-4">Sizə Xüsusi Kampaniya!</h3>
+        <p class="text-lg">İndi sifariş edin, Quraşdırılması bizim tərəfdən hədiyyə olsun.</p>
+    </section>
+
+    <!-- Contact -->
+    <footer id="contact" class="bg-gray-800 text-white py-10 text-center">
+        <p class="mb-4">Bizimlə əlaqə saxlayın:</p>
+        <p class="text-2xl font-bold">+994 51 770 48 42</p>
+    </footer>
+
+</body>
+</html>
+
